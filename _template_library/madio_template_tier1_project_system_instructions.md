@@ -33,6 +33,8 @@ This document has FINAL AUTHORITY over all other project documents.
 - `orchestrator` (Tier 2) - Main workflow controller
 - [List all other Tier 2 and Tier 3 documents]
 
+**Note:** All subordinate documents must be created using templates from `_template_library/` following MADIO framework standards.
+
 ### Conflict Resolution Protocol
 When conflicts arise between documents:
 1. This document (project_system_instructions) overrides all others
@@ -93,7 +95,13 @@ When conflicts arise between documents:
 - 
 
 ---
-
+### MADIO Template Library
+When creating new documents for this project:
+- **Template Source:** `_template_library/` directory
+- **Naming Convention:** `madio_template_[tier]_[document_name].md`
+- **Authority Hierarchy:** Must maintain Tier 1 → Tier 2 → Tier 3 structure
+- **Template Selection:** Based on project complexity and requirements
+---
 ## SUCCESS METRICS
 
 ### Primary KPIs
@@ -138,6 +146,13 @@ When conflicts arise between documents:
 
 ## MAINTENANCE PROTOCOLS
 
+### Document Creation Protocol
+When adding new documents to this system:
+1. Select appropriate template from `_template_library/`
+2. Maintain proper tier classification
+3. Ensure all cross-references are updated
+4. Validate against `madio_core_templates.md` guidelines
+
 ### Update Procedures
 [How to safely update this system]
 1. 
@@ -155,6 +170,7 @@ When conflicts arise between documents:
 - 
 - 
 - 
+
 
 ---
 

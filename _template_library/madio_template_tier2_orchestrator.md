@@ -59,6 +59,8 @@
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
 
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
+
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
 - [ ] [Checkpoint 2 description]
@@ -89,6 +91,8 @@
 **Consult Documents:**
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
+
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
 
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
@@ -121,6 +125,8 @@
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
 
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
+
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
 - [ ] [Checkpoint 2 description]
@@ -151,6 +157,8 @@
 **Consult Documents:**
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
+
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
 
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
@@ -183,6 +191,8 @@
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
 
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
+
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
 - [ ] [Checkpoint 2 description]
@@ -214,6 +224,8 @@
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
 
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
+
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
 - [ ] [Checkpoint 2 description]
@@ -244,6 +256,8 @@
 **Consult Documents:**
 - [Document name] - [Specific information to retrieve]
 - [Document name] - [Specific information to retrieve]
+
+**Note:** If document doesn't exist, create using appropriate template from `_template_library/`
 
 **Quality Checkpoints:**
 - [ ] [Checkpoint 1 description]
@@ -368,6 +382,13 @@
 - [Document name] - [When to consult] - [What information to extract]
 - [Document name] - [When to consult] - [What information to extract]
 
+**Template Reference:**
+All Tier 3 documents must be created using templates from `_template_library/`:
+- `madio_template_tier3_content_operations.md` - For content validation needs
+- `madio_template_tier3_character_voice_authority.md` - For character consistency
+- `madio_template_tier3_visual_design_standards.md` - For visual requirements
+- [Additional templates as needed]
+
 **Optional Supporting Documents:**
 - [Document name] - [When to consult] - [What information to extract]
 - [Document name] - [When to consult] - [What information to extract]
@@ -423,6 +444,27 @@
 - Maintain quality gate evolution history
 
 ---
+## TEMPLATE INTEGRATION GUIDANCE
 
+### Creating Supporting Documents
+When this orchestrator requires new Tier 3 documents:
+1. **Identify Need:** Determine what supporting specification is required
+2. **Select Template:** Choose from `_template_library/`:
+   - `content_operations` - For content validation and variety
+   - `character_voice_authority` - For personality consistency
+   - `visual_design_standards` - For brand standards
+   - `visual_asset_generation` - For automated visuals
+   - `standard` - For templated output formats
+   - `document_reference_map` - For complex integrations
+3. **Customize:** Replace all `[PLACEHOLDERS]` with project specifics
+4. **Integrate:** Update this orchestrator to reference new document
+
+### Template Selection by Step Type
+- **Content Generation Steps:** Use `standard` or `content_operations`
+- **Character/Voice Steps:** Use `character_voice_authority`
+- **Visual Creation Steps:** Use `visual_design_standards` or `visual_asset_generation`
+- **System Integration:** Use `document_reference_map`
+
+---
 **ORCHESTRATION AUTHORITY**
 This document has authority over all Tier 3 supporting documents and serves as the primary execution guide for this MADIO system. All workflow decisions and quality standards defined here take precedence over conflicting guidance in subordinate documents.
