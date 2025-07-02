@@ -96,6 +96,25 @@ This document tracks development tasks for enhancing the MADIO framework based o
 - [ ] Create "Complex Project Bundle" recommendations
 - [ ] Update Template Selection Matrix with new templates
 - [ ] Add guidance on combining multiple Tier 3 templates
+- [ ] Document new templates once created
+
+#### [ ] Update `README.md`
+- [ ] Add new templates to repository structure
+- [ ] Update "Current Templates" section with new Tier 3 templates
+- [ ] Add section on MEA-inspired templates
+- [ ] Update version history
+
+#### [ ] Update `project_system_instructions.md`
+- [ ] Add references to new template capabilities
+- [ ] Update domain expertise section with analysis/evaluation competencies
+- [ ] Add MEA pattern recognition to capabilities
+
+#### [ ] Update `madio-start/` folder
+- [ ] Copy all new templates to `madio-start/_template_library/`
+- [ ] Create `madio-start/GEMINI.md` for user projects
+- [ ] Update `madio-start/README.md` with new templates
+- [ ] Update `madio-start/GETTING-STARTED.md` with new examples
+- [ ] Add examples using new complex analysis templates
 
 #### [ ] Create Visual Framework Examples
 - [ ] Create `_template_library/visual_frameworks/` subfolder
@@ -160,8 +179,11 @@ madio-framework-dev/
 │       └── Strategic_Elements_Framework.md
 ├── gemini-context/
 │   ├── mea-to-madio-mapping.md
-│   └── template-creation-prompts/
-└── _template_library/
+│   ├── gemini-madio-context.md
+│   └── gemini-prompts.md
+├── _template_library/
+├── GEMINI.md
+└── todo.md
 ```
 
 ### Dependencies
@@ -186,9 +208,12 @@ madio-framework-dev/
 - [x] Export MEA Google Docs to markdown files
 - [x] Save MEA docs to `/reference-docs/mea/` with underscores for spaces
 - [x] Create MEA to MADIO reference mapping
+- [x] Create Gemini context files for template generation
+- [x] Create GEMINI.md for project context loading
+- [x] Update gemini-prompts.md for simplified prompts with context
 
 ### In Progress
-- [ ] Create Gemini context files for template generation
+- [ ] Creating new Tier 3 templates using Gemini CLI
 
 ### Next Steps
 1. Start with high-priority methodology and rubrics templates

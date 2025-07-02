@@ -1,3 +1,8 @@
+## TIER 3 TEMPLATE: VISUAL ASSET GENERATION
+
+**File:** `madio_template_tier3_visual_asset_generation.md`
+
+
 # [PROJECT_NAME]: Visual Asset Generation Authority
 
 **Document Authority:** TIER 3 - SUPPORTING SPECIFICATION

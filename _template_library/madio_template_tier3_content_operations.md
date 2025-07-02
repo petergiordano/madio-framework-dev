@@ -1,3 +1,8 @@
+
+## TIER 3 TEMPLATE: CONTENT OPERATIONS
+
+**File:** `madio_template_tier3_character_content_operations.md`
+
 # [PROJECT_NAME]: Content Operations Manual
 
 **Document Authority:** TIER 3 - SUPPORTING SPECIFICATION

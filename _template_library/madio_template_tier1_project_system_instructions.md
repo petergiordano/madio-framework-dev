@@ -1,4 +1,6 @@
-# [PROJECT_NAME]: System Instructions
+## TIER 1 TEMPLATE: PROJECT SYSTEM INSTRUCTIONS
+
+**File:** `madio_template_tier1_project_system_instructions.md`
 
 **Document Authority:** TIER 1 - PRIMARY CONTROL
 **Document Type:** project_system_instructions
