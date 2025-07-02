@@ -120,6 +120,20 @@ Every template must:
 - ✅ Reference other documents appropriately
 - ✅ Support multi-platform deployment
 
+### Recommended Structure
+GitHub/
+├── madio-framework-dev/        # Your development repo
+│   ├── _template_library/      # Master templates
+│   ├── madio-test-projects/    # Your test projects
+│   ├── madio_core_templates.md # Template documentation
+│   └── README.md              # Framework documentation (keep this!)
+│
+└── madio-start/               # User starter template
+    ├── _template_library/     # Copy of templates
+    ├── madio_core_templates.md # Copy of guide
+    ├── README.md             # Simplified user guide
+    └── GETTING_STARTED.md    # Setup instructions
+
 ## Current Templates
 
 ### Mandatory Templates (All Projects)
