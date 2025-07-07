@@ -1,4 +1,4 @@
-## TIER 3 TEMPLATE: STANDARD CONTENT
+## TIER 3 TEMPLATE: STANDARD CONTENT 
 
 **File:** `madio_template_tier3_standard_content.md`
 
